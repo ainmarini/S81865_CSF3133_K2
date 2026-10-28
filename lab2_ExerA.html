@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Programming Workshop 2026</title>
+</head>
+<body>
+
+    <!-- Header: Event name and tagline -->
+    <header>
+        <h1>Faculty Programming Workshop 2026</h1>
+        <p>Learn to Code, Build Your Skills, Shape Your Future!</p>
+    </header>
+
+    <!-- Navigation: Links to sections of the page -->
+    <nav>
+        <a href="#about">About the Event</a> |
+        <a href="#schedule">Event Schedule</a> |
+        <a href="#register">Registration</a>
+    </nav>
+
+    <!-- Section 1: About the Event -->
+    <section id="about">
+        <h2>About the Event</h2>
+
+        <p>
+            The Faculty Programming Workshop 2026 is a one-day event
+            designed to help students improve their programming skills,
+            explore new technologies, and learn from experienced speakers.
+        </p>
+
+        <!-- Article 1: Introduction to the first speaker -->
+        <article>
+            <h3>Speaker 1: Dr. Ahmad Rahman</h3>
+            <p>
+                Dr. Ahmad Rahman is a software engineer and lecturer
+                who specialises in web development. He will introduce
+                students to the fundamentals of HTML and web programming.
+            </p>
+        </article>
+
+        <!-- Article 2: Introduction to the second speaker -->
+        <article>
+            <h3>Speaker 2: Ms. Nur Aisyah</h3>
+            <p>
+                Ms. Nur Aisyah is an experienced application developer.
+                She will conduct a hands-on programming session and
+                share useful tips for developing software projects.
+            </p>
+        </article>
+    </section>
+
+    <!-- Section 2: Event Schedule -->
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Venue</th>
+                    <th>Person in Charge</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>8:00 AM - 8:30 AM</td>
+                    <td>Registration and Breakfast</td>
+                    <td rowspan="2">Main Hall</td>
+                    <td>Organising Committee</td>
+                </tr>
+
+                <tr>
+                    <td>8:30 AM - 9:00 AM</td>
+                    <td>Opening Ceremony</td>
+                    <td>Faculty Dean</td>
+                </tr>
+
+                <tr>
+                    <td>9:00 AM - 10:30 AM</td>
+                    <td>Introduction to HTML</td>
+                    <td>Computer Lab 1</td>
+                    <td>Dr. Ahmad Rahman</td>
+                </tr>
+
+                <tr>
+                    <td>10:30 AM - 11:00 AM</td>
+                    <td>Tea Break</td>
+                    <td>Main Hall</td>
+                    <td>Organising Committee</td>
+                </tr>
+
+                <tr>
+                    <td>11:00 AM - 12:30 PM</td>
+                    <td>Hands-on Programming Workshop</td>
+                    <td>Computer Lab 1</td>
+                    <td>Ms. Nur Aisyah</td>
+                </tr>
+
+                <!-- Colspan: Lunch break spans three columns -->
+                <tr>
+                    <td>12:30 PM - 2:00 PM</td>
+                    <td colspan="3">Lunch Break</td>
+                </tr>
+
+                <tr>
+                    <td>2:00 PM - 3:30 PM</td>
+                    <td>Web Development Challenge</td>
+                    <td>Computer Lab 2</td>
+                    <td>Mr. Daniel Lim</td>
+                </tr>
+
+                <tr>
+                    <td>3:30 PM - 4:00 PM</td>
+                    <td>Afternoon Refreshments</td>
+                    <td>Main Hall</td>
+                    <td>Organising Committee</td>
+                </tr>
+
+                <tr>
+                    <td>4:00 PM - 5:00 PM</td>
+                    <td>Project Presentation and Awards</td>
+                    <td>Main Hall</td>
+                    <td>Judging Panel</td>
+                </tr>
+
+                <tr>
+                    <td>5:00 PM - 5:30 PM</td>
+                    <td>Closing Ceremony</td>
+                    <td>Main Hall</td>
+                    <td>Faculty Dean</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section 3: Registration Form -->
+    <section id="register">
+        <h2>Student Registration</h2>
+
+        <p>Please complete the form below to register for the event.</p>
+
+        <form action="register.html" method="post">
+
+            <!-- Text input: Full Name -->
+            <p>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </p>
+
+            <!-- Text input: Matric Number -->
+            <p>
+                <label for="matric">Matric Number:</label>
+                <input type="text" id="matric" name="matric" required>
+            </p>
+
+            <!-- Email input -->
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <!-- Radio buttons: Year of Study -->
+            <fieldset>
+                <legend>Year of Study:</legend>
+
+                <input type="radio" id="year1" name="year" value="Year 1" required>
+                <label for="year1">Year 1</label>
+
+                <input type="radio" id="year2" name="year" value="Year 2">
+                <label for="year2">Year 2</label>
+
+                <input type="radio" id="year3" name="year" value="Year 3">
+                <label for="year3">Year 3</label>
+
+                <input type="radio" id="year4" name="year" value="Year 4">
+                <label for="year4">Year 4</label>
+            </fieldset>
+
+            <!-- Checkboxes: Select preferred sessions -->
+            <fieldset>
+                <legend>Sessions You Want to Join:</legend>
+
+                <input type="checkbox" id="html" name="sessions" value="HTML">
+                <label for="html">Introduction to HTML</label>
+
+                <br>
+
+                <input type="checkbox" id="workshop" name="sessions" value="Programming Workshop">
+                <label for="workshop">Hands-on Programming Workshop</label>
+
+                <br>
+
+                <input type="checkbox" id="challenge" name="sessions" value="Web Challenge">
+                <label for="challenge">Web Development Challenge</label>
+
+                <br>
+
+                <input type="checkbox" id="presentation" name="sessions" value="Project Presentation">
+                <label for="presentation">Project Presentation and Awards</label>
+            </fieldset>
+
+            <!-- Drop-down list: Programme or Faculty -->
+            <p>
+                <label for="programme">Programme or Faculty:</label>
+
+                <select id="programme" name="programme" required>
+                    <option value="">-- Select Programme or Faculty --</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Software Engineering">Software Engineering</option>
+                    <option value="Information Systems">Information Systems</option>
+                    <option value="Multimedia">Multimedia</option>
+                </select>
+            </p>
+
+            <!-- Submit button -->
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+
+        </form>
+    </section>
+
+    <!-- Footer: Organiser information and copyright -->
+    <footer>
+        <p>Organised by: Faculty Programming Workshop Committee</p>
+        <p>&copy; 2026 Faculty Programming Workshop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
