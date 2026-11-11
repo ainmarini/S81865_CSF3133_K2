@@ -1,0 +1,87 @@
+
+/* General CSS */
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Link states */
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: lightblue;
+}
+
+nav a:hover {
+    background-color: orange;
+}
+
+nav a:active {
+    background-color: red;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* ID selector */
+#section1 {
+    text-align: center;
+}
+
+/* Class selector */
+.video {
+    text-align: center;
+}
+
+/* Text decoration */
+h2 {
+    text-decoration: underline;
+}
+
+/* Form */
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
