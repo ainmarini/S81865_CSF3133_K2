@@ -1,0 +1,106 @@
+/* General body styling applying Roboto font and line height */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling with background image cover and center */
+header {
+    background-image: url("books.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Heading styles using Merriweather font */
+h1, h2 {
+    font-family: 'Merriweather', serif;
+}
+
+/* Navigation bar layout */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navigation list items */
+li {
+    float: left;
+}
+
+/* Navigation links styling */
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effect for navigation items */
+li a:hover {
+    background-color: #111;
+}
+
+/* Active class highlighting current page */
+li a.active {
+    background-color: #04AA6D;
+}
+
+/* Main content layout and spacing */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Table structure and layout */
+#products {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Table cells styling */
+#products td, #products th {
+    border: 1px solid #ddd;
+    padding: 12px 8px;
+}
+
+/* Table header formatting: uppercase, centered, and colored */
+#products th {
+    background-color: #04AA6D;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Align price column to the right */
+#products td:nth-child(3), #products th:nth-child(3) {
+    text-align: right;
+}
+
+/* Alternating row colors */
+#products tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+#products tr:hover {
+    background-color: #ddd;
+}
+
+/* Footer layout and subtle styling */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    color: #333;
+}
+```[cite: 6, 7, 8, 9, 10]
